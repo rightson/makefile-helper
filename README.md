@@ -23,7 +23,7 @@ Clone the makefile-helper
 
     git clone https://github.com/rightson/makefile-helper.git
     
-You may just create soft link in your working directory
+Create a soft link in your working directory
 
     cd your_playground_folder
     ln -s /path/to/the/cloned_makefile-helper/Makefile
