@@ -1,5 +1,5 @@
-# makefile helper
-This is a Makefile helper for lazy c/c++ programmers who just want to try something immeidately.
+# Makefile Helper
+This Makefile is designed for lazy C/C++ programmers who want to try something immeidately with minimal settings.
 
 It provides a simple way to get rid of `compile-then-run` routine.
 
@@ -19,8 +19,17 @@ You may compile different file in the same folders individually, for example:
 
 
 # Usage
-Firstly, please update COMPILER or EXTENSION as need,
-Then, just type
+Clone the makefile-helper
+
+    git clone https://github.com/rightson/makefile-helper.git
+    
+You may just create soft link in your working directory
+
+    cd your_playground_folder
+    ln -s /path/to/the/cloned_makefile-helper/Makefile
+    
+Please update COMPILER or EXTENSION as need (if you are writing C++ and using g++/clang++...),
+Then, type
 
     make TARGET
 
